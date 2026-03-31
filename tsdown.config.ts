@@ -5,7 +5,7 @@ export default defineConfig([
 		entry: { index: "./src/index.ts" },
 		outDir: ".netlify/functions",
 		noExternal: [/.*/],
-		external: ["node:*", "@libsql/*", "@libsql/client", "@netlify/functions"],
+		external: ["node:*", "@libsql/*", "@libsql/client", "@netlify/functions", "drizzle-orm", "drizzle-orm/*"],
 		shims: true,
 		clean: true,
 	},
