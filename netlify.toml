@@ -3,8 +3,7 @@
   publish = "public"
 
 [functions]
-  directory = ".netlify/functions"
-  node_bundler = "none"
+  directory = "netlify/functions"
 
 [template]
   required-extensions = ["turso"]
